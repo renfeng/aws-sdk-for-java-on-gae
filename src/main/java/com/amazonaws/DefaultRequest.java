@@ -19,7 +19,7 @@ import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.http.annotation.NotThreadSafe;
+import javax.annotation.concurrent.NotThreadSafe;
 
 import com.amazonaws.http.HttpMethodName;
 import com.amazonaws.util.AWSRequestMetrics;

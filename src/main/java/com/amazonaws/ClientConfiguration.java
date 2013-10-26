@@ -14,7 +14,7 @@
  */
 package com.amazonaws;
 
-import org.apache.http.annotation.NotThreadSafe;
+import javax.annotation.concurrent.NotThreadSafe;
 
 import com.amazonaws.util.VersionInfoUtils;
 /**
